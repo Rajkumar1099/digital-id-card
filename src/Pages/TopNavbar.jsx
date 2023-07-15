@@ -23,8 +23,8 @@ const TopNavbar = () => {
                 <NavLink to='/login' className={({ isActive}) =>  isActive ? "text-decoration-none bg-danger text-white rounded-1 px-2" : "text-decoration-none text-white" }>
                     Login
                 </NavLink>
-                <NavLink to='/register' className={({ isActive}) =>  isActive ? "text-decoration-none bg-danger text-white rounded-1 px-2" : "text-decoration-none text-white" }>
-                    Signup
+                <NavLink to='scanner' className={({ isActive}) =>  isActive ? "text-decoration-none bg-danger text-white rounded-1 px-2" : "text-decoration-none text-white" }>
+                    Scanner
                 </NavLink>
             </Nav>
         </Navbar.Collapse>

@@ -4,7 +4,6 @@ import {  getDatabase,ref, child, push, update , onValue} from "firebase/databas
 import { database , auth} from '../firebase';
 import {createUserWithEmailAndPassword} from 'firebase/auth'
 import axios from 'axios'
-import { api_url } from '../Utilsl/Setting';
 import { Navigate, useNavigate } from 'react-router-dom';
 const Home = () => {
     const[error, setError] = useState(false)
